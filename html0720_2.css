@@ -1,0 +1,19 @@
+#user_id_input{
+    font-size: 15px;
+    background-color: beige;
+}
+
+#user_pw_input{
+    font-size: 15px;
+    background-color: beige;
+}
+
+
+
+#pw_qu{
+    background: darkgreen;
+}
+
+#self_intro{
+    background-color: darkcyan;
+}

@@ -5,10 +5,11 @@
         <meta name = "viewport" content="width =divece-width. initial-scale = 1.0"/>
         <meta http-equiv="X-UA-Comatible" content="ie=edge"/>
         <title>Document</title>
+        <link rel="stylesheet" href="./html0720_2.css"
     </head>
     <body>
-        <form action="https://server.ai-school.com" method="POST">
-        <label for="user_id_input">이메일</label>
+    <form action="https://server.ai-school.com" method="POST">
+       <label for="user_id_input">이메일</label>
        <input 
        id = "user_id_input" 
        type ="text" 
@@ -17,26 +18,27 @@
        <br/>
        <label for ="user_pw_input">비밀번호</label>
        <input 
-       id = "user_pw_input" 
-       type ="password"
-       name="user_pw" 
-       placeholder="비밀번호를 입력하세요"/> 
+            id = "user_pw_input" 
+            type ="password"
+            name="user_pw" 
+            placeholder="비밀번호를 입력하세요"/> 
        <br/>
        
        <label for="pw_qu">비밀번호 질문</label>
        <select id="pw_qu">
+           <option>질문을 선택해주세요.</option>
            <option>가장 기억에 남는 담임선생님</option>
            <option>어렸을때 별명은?</option>
-        </select>
-        <label for ="user_pw_q_input">비밀번호 응답</label>
+       </select>
+       <label for ="user_pw_q_input">비밀번호 응답</label>
        <input id = "user_pw_q_input" type ="text" name="user_pw" placeholder="응답칸"/> 
        <br/> 
-       <textarea name="selfintu" cols="70" rows="70">
+       <textarea id= "self_intro"name="selfintro" cols="70" rows="70">
             자기소개 칸
-        </textarea>
-        <br/>
-        <button name="전송" type="submit">회원가입하기</button>
-        </form>
+       </textarea>
+       <br/>
+       <button id = "submit_btn" name="submit_btn" type="submit">회원가입하기</button>
+       </form>
       
     </body>
 </html>
